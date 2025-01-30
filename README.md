@@ -12,7 +12,7 @@ Verktøy for oss som har fått nok av PowerPoint. La oss prøve markdown, draw.i
 ## Presentasjoner
 
 - [novari-theme-example.md](https://github.com/FINTLabs/novari-markdown-slides/blob/main/novari-theme-example.md?plain=1) | [web](https://fintlabs.github.io/novari-markdown-slides/novari-theme-example.html) | [pdf](https://fintlabs.github.io/novari-markdown-slides/novari-theme-example.pdf)
-- [informasjonsmodellen.md](https://github.com/FINTLabs/novari-markdown-slides/blob/main/novari-theme-example.md?plain=1) | [web](https://fintlabs.github.io/novari-markdown-slides/informasjonsmodellen.html) | [pdf](https://fintlabs.github.io/novari-markdown-slides/informasjonsmodellen.pdf)
+- [informasjonsmodellen.md](https://github.com/FINTLabs/novari-markdown-slides/blob/main/informasjonsmodellen.md?plain=1) | [web](https://fintlabs.github.io/novari-markdown-slides/informasjonsmodellen.html) | [pdf](https://fintlabs.github.io/novari-markdown-slides/informasjonsmodellen.pdf)
 
 ## Template for Novari
 
