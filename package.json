@@ -4,7 +4,7 @@
     "build": "bun run html && bun run pdf && bun run assets",
     "pdf": "bun --watch run marp --pdf --allow-local-files",
     "html": "bun --watch run marp",
-    "assets": "cp -r drawio/ excalidraw/ images/ public/"
+    "assets": "cp -r drawio/ excalidraw/ images/ public/ && mkdir -p public/marp/themes && cp -r marp/themes/images/ public/marp/themes/"
   },
   "dependencies": {
     "@marp-team/marp-cli": "^4.1.1"
