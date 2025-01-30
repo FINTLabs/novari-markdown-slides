@@ -9,10 +9,10 @@ headingDivider: 2
 
 Verktøy for oss som har fått nok av PowerPoint. La oss prøve markdown, draw.io og excalidraw i stedet.
 
-## Eksempler
+## Presentasjoner
 
-- [novari-theme-example.md](./novari-theme-example.md)
-- [informasjonsmodellen.md](./informasjonsmodellen.md)
+- [novari-theme-example.md](https://github.com/FINTLabs/novari-markdown-slides/blob/main/novari-theme-example.md?plain=1) | [web](https://fintlabs.github.io/novari-markdown-slides/novari-theme-example.html) | [pdf](https://fintlabs.github.io/novari-markdown-slides/novari-theme-example.pdf)
+- [informasjonsmodellen.md](https://github.com/FINTLabs/novari-markdown-slides/blob/main/novari-theme-example.md?plain=1) | [web](https://fintlabs.github.io/novari-markdown-slides/informasjonsmodellen.html) | [pdf](https://fintlabs.github.io/novari-markdown-slides/informasjonsmodellen.pdf)
 
 ## Template for Novari
 
