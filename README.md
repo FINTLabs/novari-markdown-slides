@@ -1,11 +1,4 @@
----
-marp: true
-theme: novari
-paginate: true
-headingDivider: 2
----
-
-# novari-markdown-slides
+# Novari Markdown Slides
 
 Verktøy for oss som har fått nok av PowerPoint. La oss prøve markdown, draw.io og excalidraw i stedet.
 
@@ -20,16 +13,16 @@ Tilpassing av template gjøres i [marp/themes/novari.css](marp/themes/novari.css
 
 ## Hvordan komme i gang?
 
-Det kan startes lokalt ved å kjøre `bun start`. Forutsetter at du har `node` og `bun` installert.
+Det kan startes lokalt ved å kjøre `bun install && bun start`. Forutsetter at du har `bun` installert (https://bun.sh/docs/installation).
 
 Vil anbefale å bruke Visual Studio Code til å redigere presentasjoner og diagrammer.
 
-For å redigere markdown-presentasjonene og diagrammer trenger du extensions for Marp, Draw.io og Excalidraw til Visual Studio Code: [.vscode/extensions.json](.vscode/extensions.json). Du vil bli anbefalt å installere disse når du starter opp Visual Studio Code.
+For å redigere markdown-presentasjonene og diagrammer trenger du extensions for Marp, Draw.io og Excalidraw til Visual Studio Code: [.vscode/extensions.json](.vscode/extensions.json). Du vil bli anbefalt å installere disse, ved åpning av prosjektet i Visual Studio Code.
 
 ## Metdata som kan benyttes på sider i presentasjonen
 
 - `<!-- _hide: true -->` - For å skjule en side
-- `<!-- _class: x -->` - For å endre stil på side: 
+- `<!-- _class: x -->` - For å endre stil på side, hvor `x` kan være: 
     - `forside-a` - Definerer tema for forsiden
     - `sisteside-a` - Definerer tema for sistesiden
 - `<!-- _footer: "markdown tekst" -->` - Legger til tekst nederst på siden
