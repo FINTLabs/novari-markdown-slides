@@ -1,9 +1,10 @@
 {
   "scripts": {
     "start": "bun --watch run marp --server . --allow-local-files",
-    "build": "bun run html && bun run pdf",
+    "build": "bun run html && bun run pdf && bun run assets",
     "pdf": "bun --watch run marp --pdf --allow-local-files",
-    "html": "bun --watch run marp"
+    "html": "bun --watch run marp",
+    "assets": "cp -r drawio/ excalidraw/ images/ public/"
   },
   "dependencies": {
     "@marp-team/marp-cli": "^4.1.1"
