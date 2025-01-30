@@ -1,0 +1,69 @@
+/* @theme novari */
+
+@import 'default';
+
+@import url('https://fonts.cdnfonts.com/css/brockmann?weights=100,300,400,500,700');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
+
+:root {
+  --novari-color-beige: #F8ECDC;
+  --novari-color-purple: #621B3C;
+  --novari-color-coral: #FF6B5C;
+  --novari-color-blue: #5A51E1; /* farge på stikktittel */
+  --secondary-color: #333333;
+  --background-color: #ffffff;
+  --text-color: #2c3e50;
+  --accent-color: #e74c3c;
+
+  --novari-font-headers: 'Brockmann', sans-serif;
+  --novari-font-body: 'Inter', sans-serif;
+}
+
+section { color: var(--text-color); background-color: var(--novari-color-beige); font-family: var(--novari-font-body); font-weight: 400; padding: 60px 70px; place-content: safe start; }
+
+/* Header styles */
+h1 { color: var(--novari-color-purple); font-family: var(--novari-font-body); font-size: 1.5em; font-weight: 100; padding-top: 0.5em; }
+h2 { color: var(--novari-color-purple); font-size: 1.1em; font-weight: 500; }
+h3 { color: var(--novari-color-purple); font-size: 1em; font-weight: 500; }
+h4 { color: var(--novari-color-purple); font-size: 1em; font-weight: 400; }
+h5 { color: var(--novari-color-purple); font-size: 29px; font-weight: 100;  }
+
+/* stikktittel */
+h6 { color: var(--novari-color-blue); font-family: var(--novari-font-body); font-size: .7em; opacity: 0.7; margin-bottom: 0.5em; font-weight: 400; letter-spacing: 0.05em; border-bottom: 3px solid var(--novari-color-blue); width: fit-content; }
+
+/* logo */
+section::before { content: ''; position: absolute; left: 50px; bottom: 20px; width: 120px; height: 38px; background: left bottom / contain no-repeat url('./marp/themes/images/novari-logo.svg'); }
+
+/* sidenummer */
+section::after { color: var(--novari-color-coral); font-size: 0.5em; right: 50px; bottom: 20px; }
+
+
+/* FORSIDE-A */
+section.forside-a { padding: 100px 70px; background: var(--novari-color-beige) url('./marp/themes/images/novari-background.svg') no-repeat -540px / 5200px auto; }
+section.forside-a h1 { margin-top: 120px; font-size: 2.7em; width: 950px; font-family: var(--novari-font-headers); }
+/* dato, sted, navn */
+section.forside-a h6 { color: var(--novari-color-purple)!important; border: none; font-weight: 400; font-size: .7em;}
+
+/* SISTESIDE-A */
+section.sisteside-a p { font-size: .6em; margin: 10px; color: var(--novari-color-purple); line-height: 1.2; }
+section.sisteside-a h1 { text-align: center; padding-top: 90px; }
+section.sisteside-a::before { background-image: url('./marp/themes/images/novari-iks-logo.svg')  }
+
+/* større logo på forside og sisteside */
+section.forside-a::before,
+section.sisteside-a::before { width: 300px; height: 100%; margin-bottom: 40px; margin-left: -22px;}
+
+
+/* TWO COLUMNS */
+.columns { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; margin-top: 1em; }
+.columns div { width: 100%; }
+.columns div ul, 
+.columns div ol { padding-left: 25px; }
+
+
+ul, ol { padding-left: 40px; }
+li { margin: 0.5em 0; }
+p { line-height: 1.6; }
+code { font-family: 'Consolas', 'Monaco', monospace; }
+img { max-width: 90%; height: auto; margin: auto; display: block; }
+footer, header { text-align: center; width: 100%; opacity: 0.7; }

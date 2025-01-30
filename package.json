@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "start": "bun --watch run marp --server . --allow-local-files",
+    "build": "bun run html && bun run pdf",
+    "pdf": "bun --watch run marp --pdf --allow-local-files",
+    "html": "bun --watch run marp"
+  },
+  "dependencies": {
+    "@marp-team/marp-cli": "^4.1.1"
+  },
+  "marp": {
+    "themeSet": "./marp/themes/",
+    "inputDir": "./",
+    "output": "./public",
+    "config": "./marp/marp.config.js"
+  }
+}
